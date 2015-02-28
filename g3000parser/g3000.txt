@@ -2612,7 +2612,7 @@ catholic
 【考法 1】adj.普遍的，包容的: not limited or specialized in application or purpose
 【例】a catholic taste in music 对于音乐的兼容并包的品味
 【近】unlimited, unqualified, unrestricted, unspecialized, all-around (also all-round)
-【反】n.arrow, limited, restricted, specialized 狭隘的
+【反】narrow, limited, restricted, specialized 狭隘的
  
 caustic
 【考法 1 】adj.腐蚀性的: capable of destroying or eating away by chemical action : corrosive
@@ -2934,7 +2934,7 @@ clement
 【反】harsh, severe, stern, strict严厉的,严格的
 【派】clemency n 仁慈
 【考法 2】adj.气候温和的: marked by temperatures that are neither too high nor too low
-【例】Hawa is known for its delightfully clement climate 夏威夷以它宜人的温和气候著称。
+【例】Hawaii is known for its delightfully clement climate 夏威夷以它宜人的温和气候著称。
 【近】mild, genial, gentle, balmy, equable
 【反】harsh, inclement, severe 严酷的
  
@@ -2953,7 +2953,6 @@ clog
 【近】encumber, fetter, hinder, hold back, hold up, impede, inhibit, interfere with, obstruct, shackle, stymie, tie up, trammel
 【反】aid, assist, help 帮助；facilitate 促进
 【考法 3】v.堵塞: to prevent passage through by filling with something
-【例】Within a few years the pipe began to clog up 没有几年，管子就开始堵塞了。
 【近】block, choke, clot, gum up, jam, obstruct, occlude, stop up, stuff
 【反】clear, free, open up, unblock, unclog, unstop
  
@@ -3174,7 +3173,7 @@ committed
 【例】remain committed to one's youthful ideal坚持不懈地追求自己年轻时的理想
 【近】loyal, faithful, allegiant
 【反】disloyal 不忠诚的
-【派】n.oncommittal adj不明确的: giving no clear indication of attitude or feeling
+【派】noncommittal adj不明确的: giving no clear indication of attitude or feeling
 【例】a noncommittal reply 一个不明确的回答
 【反】confirmable 确定的
  
@@ -3545,7 +3544,7 @@ consensus
  
 consequence
 【考法 1 】n.结果: something produced by a cause or necessarily following from a set of conditions
-【例】n.egative consequences of the war 战争带来的负面后果
+【例】negative consequences of the war 战争带来的负面后果
 【近】aftermath, effect, outcome, result
 【反】source, origin, cause, antecedent 根源、原因
 【考法 2】n.重要性，价值: significance; importance
@@ -3856,7 +3855,7 @@ convoke
 【考法 1】v.召集开会: to bring together by or as if by summons
 【例】to convoke Parliament召开国会
 【近】assemble, convene, summon, muster
-【反】adj.ourn 休会
+【反】adjourn 休会
  
 convoluted
 【考法1】adj.复杂的，费解的: complicated; intricate

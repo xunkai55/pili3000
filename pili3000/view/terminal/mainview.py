@@ -20,7 +20,7 @@ class MainView(TermView):
                 if x[0] == "learn":
                     view = LearnView(int(x[1]))
                 elif x[0] == "review":
-                    view = ReviewView(int(x[1]))
+                    view = ReviewView(int(x[1]), int(x[2]) if len(x) > 2 else 0)
                 elif x[0] == "dic":
                     view = DicView()
                 elif x[0] == "exit" or x[0] == "quit":

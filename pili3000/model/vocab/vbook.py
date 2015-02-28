@@ -25,6 +25,13 @@ class VBook(object):
         word = self.extract_english(word)
         return (word in self.vocab.keys())
 
+    def contains_word_in_sentence(self, word):
+        words = word.split(" ")
+        for w in words:
+            if self.contains_word(w):
+                return True
+        return False
+
     @staticmethod
     def fromObj(obj):
         book = VBook()

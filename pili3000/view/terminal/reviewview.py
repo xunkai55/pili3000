@@ -6,18 +6,21 @@ from termview import TermView
 from pili3000.model import g3000
 from random import shuffle, sample
 
+PARTIAL_SIZE = 50
+
 class ReviewView(TermView):
 
-    def __init__(self, chap_id):
+    def __init__(self, chap_id, chap_id_end):
         super(ReviewView, self).__init__("review")
         self.chap_id = chap_id
+        self.chap_id_end = chap_id_end if chap_id_end else chap_id
         self.alert(
-            u"开始复习第%d个List" % self.chap_id
+            u"开始复习第%d个List" % self.chap_id + (u"到第%d个List" % self.chap_id_end) if chap_id_end else ""
         )
 
     def run(self):
         while True:
-            self.info(u"输入E使用例子复习，M使用含义复习，C使用英汉选择题复习。若采用局部复习，请增加P选项（如EP）")
+            self.info(u"输入E使用例子复习，M使用含义复习，C使用英汉选择题复习。若仅复习50道题目，请增加P选项（如EP）")
             x = self.accept_command()
             try:
                 partial = x.find("P") >= 0
@@ -35,11 +38,12 @@ class ReviewView(TermView):
 
     def run_review(self, partial, content):
         t = []
-        for word in g3000[self.chap_id].all_words():
-            t.extend([(word.word, content(meaning)) for meaning in word if content(meaning)])
+        for chap in g3000[self.chap_id : self.chap_id_end]:
+            for word in chap:
+                t.extend([(word.word, content(meaning)) for meaning in word if content(meaning)])
         shuffle(t)
         if partial:
-            t = t[ : int(0.2 * len(t))]
+            t = t[ : PARTIAL_SIZE]
         tot = len(t)
         now = 0
         cnt = 0
@@ -63,11 +67,12 @@ class ReviewView(TermView):
         CHOICE_NUM = 5
         ALPHA = ["A", "B", "C", "D", "E"]
         t = []
-        for word in g3000[self.chap_id].all_words():
-            t.extend([(word.word, meaning.explanation) for meaning in word if meaning.explanation])
+        for chap in g3000[self.chap_id : self.chap_id_end]:
+            for word in chap.all_words():
+                t.extend([(word.word, meaning.explanation) for meaning in word if meaning.explanation])
         shuffle(t)
         if partial:
-            t = t[ : int(0.2 * len(t))]
+            t = t[ : PARTIAL_SIZE]
         tot = len(t)
         now = 0
         cnt = 0

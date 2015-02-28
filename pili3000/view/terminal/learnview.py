@@ -37,10 +37,11 @@ class LearnView(TermView):
                             if not content: continue
                             self.out_(item)
                             for each in content:
-                                if g3000.extract_english(each) < word.word and g3000.contains_word(each):
+                                if g3000.extract_english(each) < word.word and g3000.contains_word_in_sentence(each):  # (4, 5, 2)
                                     self.blue_(each)
                                 else:
                                     self.out_(each)
+                                self.out_("; ")
                             self.endl()
                         self.validate_input(word.word, 3)
             self.hint(u"通过例子复习。j跳过")
