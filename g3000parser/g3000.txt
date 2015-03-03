@@ -4305,7 +4305,7 @@ dally
 【近】crawl, creep, dillydally, drag, lag, linger, loiter, tarry
 【反】dash, hasten, scoot, scurry
  
-clamper
+damper
 【考法 1】n.抑制因素: one that deadens, restrains, or depresses
 【例】Rain put a damper on our picnic plans 下雨打破了我们的野餐计划。
 【反】ameliorator 促进物
@@ -4405,6 +4405,8 @@ debase
 【考法 1 】v.贬低，贬损: to reduce to a lower standing in one's own eyes or in others' eyes
 【例】our failure to win a single game completely debased 我们一场未胜的战绩彻底让我们的形象一落千丈
 【近】abase, debauch, degrade, demean, demoralize, deprave, deteriorate, profane, subvert, vitiate
+
+Unit 5
  
 debilitate
 【考法 1 】vt.使衰弱: to impair the strength of; enfeeble
@@ -4456,7 +4458,7 @@ decode
 【例】the agents worked into the night to decode the intercepted message from the enemy spy 情报人员夜 以继日地破解从敌方间谍拦截的信息
 【近】break, crack, decipher, decrypt
 【考法 2】v.有清晰想法，理解,解读: to have a clear idea of
-【例】a convoluted thriller, the plot of which I was never able to actually decipher 一部错综复杂的恐怖电影，情节我一直没有理解
+【例】a convoluted thriller, the plot of which I was never able to actually decode 一部错综复杂的恐怖电影，情节我一直没有理解
 【近】apprehend, perceive, recognize, seize, sense ,make out
  
 decorum
@@ -4537,8 +4539,8 @@ defy
 dehydrate
 【考法 1】vt.去除水分，(使)干燥: to remove water from; make anhydrous
 【例】bought a dehumidifier in order to dehydrate the damp basement买了一个减湿器来给地下室除湿
-【近】dampen, desiccate, parch, scorch, sear
-【反】hydrate, saturate with water, reconstitute 用水浸润闰
+【反】dampen, desiccate, parch, scorch, sear
+【近】hydrate, saturate with water, reconstitute 用水浸润闰
 【考法 2】v.使失去活力或者味道: to deprive of vitality or savor
 【例】years of being trapped in a loveless marriage had dehydrated his spirit 多年不幸的女昏女因消肖磨了他的活力
 【近】deaden, devitalize, enervate, petrify, sap
@@ -4866,40 +4868,6 @@ designate
 List 7
 
 Unit1
-descend
-【考法 1】 v.下降: to lead or extend downward
-【例】the pathway descends to the river bank 通道一直向下延伸到河岸
- 
-descendant
-【考法 1】n.后代: one deriving directly from a precursor or prototype
-【例】They are descendants of the original English and Scottish settlers他们是最早一批英格兰和苏格兰定居者的后裔。
-【反】forbears袓先
- 
-desecrate
-【考法 1 】vt.亵渎，玷污: to treat (a sacred place or object) shamefully or with great disrespect
-【例】desecrate the shrine 亵渎圣地
-【近】defile, profane, violate
-【反】sanctify, revere, hallow尊敬，视为神圣
- 
-desiccate
-【考法1】vt.使(食物)脱水以保存，使干燥: to preserve (a food) by drying
-【例】add a cup of desiccated coconut to the mix 加一杯椰蓉进行搅拌
-【近】damp, dampen, deaden, devitalize, enervate, dehydrate
-【反】add water to, hydrate, drench 加水，浸透
-【派】desiccant n干燥剂: a drying agent (as calcium chloride)
-【考法 2】v.缺乏活力: to deprive of emotional or intellectual vitality
-【例】that historian's dryasdust prose desiccates what is actually an exciting period in European history 那位历史学家枯燥无味的散文让欧洲一段扣人心弦的历史变得乏味单调
-【近】castrate, dampen, deaden, devitalize, enervate
-【反】energize, enliven, invigorate, stimulate, vitalize 使生机勃勃
- 
-designate
-【考法 1 】v.任命: to pick (someone) by one's authority for a specific position or duty
-【例】he has yet to designate his successor as head of the firm 他还、没有给公司选定接班人
-【近】assign, commission, constitute, nominate, place
-【反】discharge, dismiss, expel, fire 解雇，开除
-【考法 2】v.命名: to give a name to
-【例】he was designated Air Jordan by his fans他被粉丝们称为飞人乔丹
-【近】denominate, dub, entitle, label, style, term, title
  
 despicable
 【考法 1】adj.令人鄙视的: arousing or deserving of one's loathing and disgust
@@ -4933,7 +4901,6 @@ detach
 【例】Detach the white part of the application form and keep it 撕下申请表的白色部分并予以保留。
 【反】tether 束缚
  
-Unit 2
  
 detain
 【考法 1】v.拘留: to hold or keep in or as if in custody
@@ -4971,6 +4938,9 @@ detract
 【考法 2】v.使分心: to draw the attention or mind to something else
 【例】Numerous typos in the text detract the reader's attention from the novel's intricate plot许多打印错误把读者分心，不关注复杂的情节了。
 【近】divert, abstract, call off
+
+
+Unit 2
  
 detritus
 【考法 1】n.废品，碎屑，遗骸: a product of disintegration, destruction, or wearing away: debris
@@ -5013,8 +4983,6 @@ diabolic
 【近】demoniac, demonian, demonic, devilish, satanic
 【反】angelic, seraphic 天使般的
  
-Unit 3
- 
 diaphanous
 【考法1】adj.模糊的，非实在的: vague or insubstantial
 【例】only a diaphanous hope of success 只有一丝成功的希望
@@ -5055,6 +5023,9 @@ diffident
 【例】She was diffident about stating her opinion她很内向，表达自己的观点的时候有点害羞。
 【近】introverted
 【反】extroverted, outgoing 外向的
+ 
+
+Unit 3
  
 diffuse
 【考法 1】adj.罗嗦的: being at once verbose and ill-organized
@@ -5100,8 +5071,6 @@ dilatory
 【近】delaying, procrastinating, dragging, lagging, tardy
 【反】rapid, fast, fleet, precipitate, rocketing, swift hasty, hurrying, scurrying 快速的
  
-Unit 4
- 
 dilettante
 【考法1】n./ adj业余爱好者(对艺术或知识领域涉猎浅薄者)/缺乏专业技术的: a person having a superficial interest in an art/ lacking or showing a lack of expert skill
 【例】Dilettante watch the scene of bustle, adept guard the entrance外行看热闹，内行看门道； Many dilettante efforts could be seen at the sidewalk art show 街边艺术展上可以看到很多技术业余的作品
@@ -5143,6 +5112,8 @@ din
 【例】Safety lessons dinned into us over and over 我们一遍又一遍的进行安全教育。
 【近】iterate, rehearse, reiterate
  
+Unit 4
+ 
 dingy
 【考法 1】adj.昏暗的，肮脏的: darkened with smoke and grime; dirty or discolored
 【例】A dingy room is always Dickensian image of the poor 一个肮脏而昏暗的房间经常作为狄更斯时代的穷 人形象； The bed sheets were pretty dingy so we threw them in the laundry pile 床单太脏了 以至于我们把它扔进了脏衣服堆。
@@ -5182,7 +5153,6 @@ dirge
 【例】This funeral dirge is for the dead friend这首葬礼挽歌是写给故去的朋友的。
 【近】elegy, requiem
  
-Unit 5
  
 disabuse
 【考法 1 】v.打消错误念头，纠正: to free from error, fallacy, or misconception
@@ -5227,6 +5197,8 @@ disavow
 【近】deny, repudiate, disaffirm, disclaim, disconfirm, gainsay, negate
 【反】acknowledge, avow, concede 承认
  
+Unit 5
+
 discern
 【考法 1 】vt.识别，辨别差异: to perceive with the eyes or intellect; detect
 【例】discern the motives 彭辛识出动机 ； too young to discern between right and wrong 太年轻了而辨别不了是非
@@ -5275,7 +5247,6 @@ discomfit
 【近】balk, foil, thwart, baffle, checkmate
 【反】advance, forward, foster, further, promote 推进，促进；encourage 鼓励
  
-Unit 6
  
 discommode
 【考法 1 】v.打扰，使不便: to cause inconvenience to: trouble
@@ -5318,6 +5289,8 @@ discredit
 【近】n.egate, doubt, distrust
 【反】accept, believe, credit 接受，相信;confirm, prove, validate, verify 证实
  
+Unit 6
+
 discrepancy
 【考法1】n.(在事实和宣称之间的)差异或矛盾: divergence or disagreement, as between facts or claims
 【例】a large discrepancy between the ideal image and the reality 理想与现实之间的巨大差距
@@ -5359,7 +5332,6 @@ discriminate
 【近】prejudiced, biased
 【反】equitable, impartial, unbiased, impersonal, unprejudiced 公平的
  
-Unit 7
  
 discursive
 【考法 1】adj.(谈话内容)杂乱的: moving from topic to topic without order
@@ -5396,6 +5368,9 @@ disgruntle
 【近】alien, alienate
 【反】reconcile调解，使和谐
  
+
+Unit 7
+
 disguise
 【考法 1】v.伪装(防止被认出): to modify the manner or appearance of in order to prevent recognition
 【例】He always disguises his true feelings 他经常掩饰自己的真实感受。
@@ -5434,8 +5409,6 @@ disinter
 【近】unbury, unearth
 【反】bury, inter, tomb, inhume 埋葬
  
-Unit 8
- 
 disinterested
 【考法 1】adj.公正的，无偏见的: free from selfish motive or interest: unbiased
 【例】a disinterested decision 公正的决定
@@ -5473,6 +5446,8 @@ disparage
 【例】use the past to disparage the present 借古讽今 ； Voters don't like political advertisements in which opponents disparage one another选民不喜欢看到贬低竞争对手的政治广告。
 【近】belittle, denigrate, deprecate, depreciate, derogate, degrade
 【反】acclaim, applaud, exalt, extol, glorify, laud 赞扬
+ 
+Unit 8
  
 disparate
 【考法 1】adj.迥然不同的: fundamentally distinct or different in kind; entirely dissimilar
@@ -5528,8 +5503,6 @@ disregard
 【近】apathy, disinterestedness, incuriosity, nonchalance, torpor, unconcern
 【反】concern, interest, regard 关心，感兴趣
  
-Unit 9
- 
 dissect
 【考法 1 】vt.仔细分析: to examine, analyze, or criticize in minute detail
 【例】dissect some basic problems in mathematics analysis 仔细分析一些数学分析的基本问题 ； let's dissect the plot of this thriller to see what makes it thrilling 让我们来仔细分析一下这个恐怖电影为什么恐怖。
@@ -5568,6 +5541,8 @@ dissent
 【考法 3】n.不和谐: a lack of agreement or harmony
 【近】conflict, disaccord, discordance, discordancy, disharmony, dissent, dissidence, dissonance, disunion, disunity, division, friction, inharmony, schism, strife
 【反】accord, agreement, concord, concordance, harmony, consensus, unanimity 不和谐，不一致
+ 
+Unit 9
  
 dissipate
 【考法 1】vt.驱散: to drive away; disperse
@@ -5615,7 +5590,6 @@ dissuade
 【近】deter, dissuade, inhibit
 【反】encourage 鼓励;persuade说服
  
-Unit 10
  
 distain
 【考法 1】v.贬损，伤害名誉: loss of honor, respect, or reputation
@@ -5651,6 +5625,8 @@ distort
 【例】A painter may exaggerate or distort shapes and forms画家可能夸张或扭曲形状； The coach's message was so distorted after passing through so many people that it was unintelligible教练的信肩、在经过许多人传递后己经被歪曲的很难看懂了。
 【近】deform, misshape, torture, falsify, misinterpret, misrepresent, pervert, twist
  
+Unit 10
+
 distract
 【考法 1】vt.转移兴趣，使分心: to draw or direct (as one's attention) to a different object
 【例】be distracted by a sudden noise被突然的噪音分心
@@ -5705,10 +5681,6 @@ diversity
 【反】alikeness, analogy, likeness, resemblance, sameness, similarity 相同，相似
  
  
-List 8
-
-Unit 1
- 
 divert
 【考法 1】vt.使转向: to turn from one course or use to another: deflect
 【例】divert traffic to a side street使交通转至辅路
@@ -5741,6 +5713,10 @@ dodder
 dodge
 【考法 1 】v.躲避: to avoid (a blow, for example) by moving or shifting quickly aside 【例】dodge a storm of bullets 躲避枪林弹雨 ； He dodged the first punch but was hit by the second 他躲过了第一次打击但是没有躲过第二次。
 【近】avoid, escape, shirk, malinger, goldbrick, evade, parry, sidestep, circumvent, fence, hedge, avert, elude, shun, skirt, bilk, eschew, weasel
+ 
+List 8
+
+Unit 1
  
 doff
 【考法 1】vt.脱下: to take off; remove
@@ -5783,7 +5759,6 @@ dolorous
 【近】agonized, bemoaning, bewailing, deplorable, grievous ,miserable, plaintive, rueful, sorrowful, woeful
 【反】happy, joyful, jovial, jubilant 高兴的
  
-Unit 2
  
 dolt
 【考法1】n.笨蛋: a stupid person
@@ -5822,6 +5797,8 @@ donor
 【近】donator, presenter, contributor, subscriber, patron, sugar daddy
 【反】acceptor 受体
  
+Unit 2
+
 doodle
 【考法 1】vi.(无目的地)乱画: to scribble aimlessly, especially when preoccupied
 【例】I often doodle when I'm on the phone 打电话时我经常乱写乱画
@@ -5867,8 +5844,6 @@ downplay
 【近】de-emphasize, disregard, ignore, overlook, neglect, understate, play down
 【反】address, emphasize, underscore 强调
  
-Unit 3
- 
 downpour
 【考法1】n.倾盆大雨: a heavy fall of rain
 【例】power failure due to the downpour 暴雨导致的电力中断
@@ -5902,6 +5877,8 @@ drawl
 【例】The old woman was drawling on and on老太太慢吞吞地说个没完
 【近】extend, lengthen, prolong, protract, draw out
 【反】drivel, gibber快速(而模糊)地说
+ 
+Unit 3
  
 dreary
 【考法 1 】adj.单调乏味的: having nothing likely to provide cheer, comfort, or interest
@@ -5942,7 +5919,6 @@ droll
 【反】lame, unamusing, uncomic, unfunny, unhumorous, unhysterical 不幽默的
 【派】drollness n古怪
  
-Unit 4
  
 drone
 【考法 1】vt.单调地说: to talk in a persistently dull or monotonous tone
@@ -5991,6 +5967,8 @@ dulcet
 【例】dulcet tones from harps and flutes 竖琴和长笛发出的悦耳音调
 【近】sweet, agreeable, delightful, euphonic, mellifluous, tuneful, winsome
 【反】cacophonous, grating 剌耳的
+
+Unit 4
  
 dullard
 【考法 1】n.笨蛋: a stupid or unimaginative person
@@ -6033,8 +6011,6 @@ dyspeptic
 【考法 2】adj.消化不良的: pertaining to, subject to, or suffering from dyspepsia
 【派】dyspepsia n消化不良
  
-Unit 5
- 
 earnest
 【考法 1 】adj.严肃认真的: characterized by or proceeding from an intense and serious state of mind, grave
 【例】an earnest machine operator 一丝不苟的机器操作员
@@ -6063,6 +6039,8 @@ ebullient
 【近】boiling, exuberant, effervescent, vivacious, brash
 【反】tepid, torpid 无精打采的
 【派】ebullience n 热情洋溢
+
+Unit 5
  
 eccentric
 【考法 1】adj.行为出格的，不循规蹈矩的: deviating from conventional or accepted usage or conduct
@@ -6109,8 +6087,6 @@ ecumenical
 【近】universal, cosmopolitan, global, planetary, worldwide
 【反】provincial, insular狭隘的
  
-Unit 6
- 
 edible
 【考法1】adj.可食用的: fit to be eaten
 【例】No chemicals in the laboratory is edible实验室中的任何化学试剂都不能食用
@@ -6154,6 +6130,8 @@ effete
 【近】frail, invertebrate, nerveless, spineless
 【反】backboned, firm, hard, strong, tough 刚毅的
 【派】effetely adv 衰弱地
+
+Unit 6
  
 effluvium
 【考法 1】n.难闻的气味: an offensive exhalation or smell
@@ -6191,8 +6169,6 @@ egalitarian
 【近】disinterested, impartial, unprejudiced, unbiased, objective
 【反】inequitable, discriminating, unfair 有偏见的，不公平的
 【派】egalitarianism n平等主义
- 
-Unit 7
  
 egoistic
 【考法 1】adj.利 己的，以自我为中心的: being centered in or preoccupied with oneself and the gratification of one's own desires
@@ -6235,6 +6211,8 @@ eleemosynary
 【近】benevolent, charitable, humane, humanitarian, philanthropic
 【反】parsimonious吝啬的
  
+Unit 7
+
 elegy
 【考法 1】n.哀歌(诗)，挽歌(诗): a song or poem expressing sorrow or lamentation
 【例】an moving elegy played at the funeral 葬礼上演奏的催人泪下的挽歌
@@ -6278,8 +6256,6 @@ elliptical
 【反】circular, round 圆形的
 【派】ellipse n 椭圆
  
-Unit 8
- 
 elucidate
 【考法 1】v.阐明: to make lucid especially by explanation or analysis
 【例】elucidate an abstruse equation in quantum mechanics阐明一个深奥难懂的量子力学方程
@@ -6320,6 +6296,8 @@ embark
 【近】begin, commence, launch, initiate, start,
 【反】conclude, end, finish, terminate 结束
  
+Unit 8
+ 
 embarrass
 【考法 1 】vt.使尴尬: to cause to experience a state of self-conscious distress
 【例】bawdy jokes that embarrassed her 让她尴尬的荤段子
@@ -6356,8 +6334,6 @@ emboss
 【近】adorn, beautify, bedeck, blazon, ornament, garnish
 【反】flatten, efface抹平，抹去
  
-Unit 9
- 
 embrace
 【考法 1】vt.乐于接受: to take up willingly or eagerly
 【例】embrace the opportunity to study further乐于接受继续深造的机会
@@ -6392,6 +6368,8 @@ emollient
 【例】soothe us in our grieves with emollient words用安慰的话语抚平我们的悲伤
 【近】appeasing, assuaging, mollifying, mitigating, relieving
 【反】aggravating, intensifying 使(局势、情况)加剧恶化的
+ 
+Unit 9
  
 emulate
 【考法 1 】vt.仿效并努力超越: to strive to equal or excel, especially through imitation
@@ -6428,8 +6406,6 @@ encompass
 【考法 2】v.包围: envelop
 【例】Berlin had already been encompassed by the Red Army and all Soviet soldiers were patiently waiting for the order to put a final nail in Nazi Germany's coffin柏林已被红军包围，苏联士兵们静静地等待着最后的命令，彻底消灭纳粹德国
 【近】circle, embrace, enclose, environ, surround
- 
-Unit 10
  
 encumber
 【考法 1 】v.阻碍；妨碍: to impede or hamper the function or activity of
@@ -6474,6 +6450,8 @@ enfranchise
 【近】discharge, emancipate, free, liberate, manumit, rescue, unfetter
 【反】bind, confine, enfetter 束缚；subjugate, subdue; enthrall 使臣服；使成为奴隶
  
+Unit 10
+ 
 engender
 【考法 1】vt.引起，使发展: to cause to exist or to develop
 【例】Her latest book has engendered a lot of controversy她的新书引发了很多争议
@@ -6511,7 +6489,38 @@ enmity
 【近】animosity, animus, antagonism, antipathy, feud, gall, hostility, rancor
 【反】amity, comity 友好；concord 和睦
  
- 
+ennoble
+【考法】vt.使尊贵: to make noble
+【例】Her skill and talent ennoble her profession. 技能和天赋使她成为业界领军人物
+【近】aggrandize, canonize, deify, dignify, glorify, magnify
+【反】debase, abase, degrade, demean, humble, humiliate 贬低
+
+ennui
+【考法】n.倦怠；缺乏兴趣: listlessness and dissatisfaction resulting from lack of interest
+【例】The kind of ennui comes from having too much time on one’s hands and too little will to find something productive to do
+【近】doldrums, listlessness, tedium, weariness
+【反】keen interest, energy, enthusiasm, exuberance 强烈的兴趣，生气盎然
+
+ensemble
+【考法】n.合唱，合奏曲: a work for two or more vocalists or instrumentalists
+【例】The actor performed an ensemble piece. 该演员参与了合唱。
+【反】solo 独唱
+
+ensconce
+【考法 1】vt.安置: to settle (oneself) securely or comfortably
+【例】ensconce oneself in a new job 在一个新职位安置’来
+【近】install, lodge, nestle, perch, roost, settle
+【反】unsettle, dislodge, displace 使从安置好的地方移开，驱逐
+【考法 2】vt.隐藏: to put in a hiding place
+【例】ensconce the spare house key in a place where no thief would think to look 把备用钥匙藏在小偷根本不会注意的地方
+【近】bury, cache, conceal, secrete
+【反】display, exhibit 展示
+
+ensue
+【考法】vi.紧随其后: take place afterward or as a result
+【例】A brief but embarrassing silence ensued. 一阵短暂且令人尴尬的沉默随之到来。
+【近】follow
+
 List 9
  
 Unit 1
