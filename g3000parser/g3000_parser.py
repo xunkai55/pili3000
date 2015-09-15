@@ -17,7 +17,6 @@ def split_words(line):
             res.extend(each.split(sep))
     return res
 
-print split_words(u"abc，def, efg；h; iii jjj")
 
 def MeaningDict(tmp):
 
@@ -86,23 +85,35 @@ def WordObj(w, desc, cid, uid, gid):
     self["desc"] = desc[:].strip()
     lines = desc.split('\n')
     self["meanings"] = []
+    self["derv"] = []
     self["cid"] = cid
     self["uid"] = uid
     self["gid"] = gid
 
     tmp = ""
+    is_derv = False
     for each in lines:
         line = each.strip()
         if len(line) == 0:
             continue
         if line.find(u"考法") >= 0 or line.find(u"【派") >= 0:
             if len(tmp):
-                self["meanings"].append(MeaningDict(tmp))
+                if not is_derv:
+                    self["meanings"].append(MeaningDict(tmp))
+                else:
+                    self["derv"].append(MeaningDict(tmp))
+            if line.find(u"【派") >= 0:
+                is_derv = True
+            else:
+                is_derv = False
             tmp = line[:] + "\n"
         else:
             tmp += line[:] + "\n"
     if len(tmp):
-        self["meanings"].append(MeaningDict(tmp))
+        if not is_derv:
+            self["meanings"].append(MeaningDict(tmp))
+        else:
+            self["derv"].append(MeaningDict(tmp))
     return self
 
 f = codecs.open("g3000.txt", "r", "utf-8")

@@ -25,7 +25,7 @@ class LearnView(TermView):
                 learning_flag = False
             unit_terms = []
             for word in unit:
-                for term in word:
+                for term in word.meanings + word.derivatives:
                     unit_terms.append((term, word.word))
                     if learning_flag:
                         self.red_star()

@@ -13,6 +13,7 @@ class VWord(object):
         self.unit_id = -1
         self.word_id = -1
         self.meanings = []
+        self.derivatives = []
 
     @staticmethod
     def fromDict(dic, book):
@@ -23,6 +24,7 @@ class VWord(object):
         word.unit_id = dic["uid"]
         word.word_id = dic["gid"]
         word.meanings = [VTerm.fromDict(e, book) for e in dic["meanings"]]
+        word.derivatives = [VTerm.fromDict(e, book) for e in dic["derv"]]
         return word
 
     def id_tuple(self):
