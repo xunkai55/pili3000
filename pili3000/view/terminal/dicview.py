@@ -21,25 +21,9 @@ class DicView(TermView):
                 try:
                     w = x.lower()
                     word = g3000.vocab[w]
-                    self.red_star()
-                    self.magenta(word.word)
-                    for m in word:
-                        self.yellow(m.explanation)
-                        self.out(m.example)
-                        links = [(u"[同] ", m.syno_raw), (u"[近] ", m.homo_raw), (u"[反] ", m.anto_raw)]
-                        for item, content in links:
-                            if not content: continue
-                            self.out_(item)
-                            for each in content:
-                                if g3000.contains_word_in_sentence(each):  # (4, 5, 2)
-                                    self.blue_(each)
-                                else:
-                                    self.out_(each)
-                                self.out_("; ")
-                            self.endl()
+                    self.out_word(word, highlight_learned_only = False)
                 except KeyError, e:
                     self.alert("Can not find the word")
-
             else:
                 try:
                     w = g3000[cid][uid][wid]

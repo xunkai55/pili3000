@@ -28,21 +28,7 @@ class LearnView(TermView):
                 for term in word.meanings + word.derivatives:
                     unit_terms.append((term, word.word))
                     if learning_flag:
-                        self.red_star()
-                        self.yellow(word.id_tuple(), word.word)
-                        self.yellow(term.explanation)
-                        self.out(term.example)
-                        links = [(u"[同] ", term.syno_raw), (u"[近] ", term.homo_raw), (u"[反] ", term.anto_raw)]
-                        for item, content in links:
-                            if not content: continue
-                            self.out_(item)
-                            for each in content:
-                                if g3000.extract_english(each) < word.word and g3000.contains_word_in_sentence(each):  # (4, 5, 2)
-                                    self.blue_(each)
-                                else:
-                                    self.out_(each)
-                                self.out_("; ")
-                            self.endl()
+                        self.out_word(word, highlight_learned_only=True)
                         self.validate_input(word.word, 3)
             self.hint(u"通过例子复习。j跳过")
             reviewing_flag = True
@@ -55,6 +41,13 @@ class LearnView(TermView):
                 if reviewing_flag:
                     self.yellow(term.example)
                     self.validate_input(word, 3)
+                    self.out(term)
             chap_terms.extend(unit_terms)
+        self.hint(u"浏览本单元单词。j跳过")
+        if self.accept_command() != "j":
+            for term, word in chap_terms:
+                self.yellow(word)
+                self.accept_command()
+                self.out(term)
         self.hint(u"学习完成。Congratulations！请使用review模式巩固学习成果")
 

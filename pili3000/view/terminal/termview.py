@@ -1,6 +1,10 @@
+# -*- coding: utf-8 -*-
+
 __author__ = 'badpoet'
 
 from termcolor import colored
+
+from pili3000.model import g3000
 
 DEBUG = True
 
@@ -33,10 +37,6 @@ class TermView(object):
         s = " ".join(map(unicode, args)).strip()
         if s: print colored(s, color)
 
-    def colored_(self, color, *args):
-        s = " ".join(map(unicode, args)).strip()
-        if s: print colored(s, color),
-
     def yellow(self, *args):
         self.colored("yellow", *args)
 
@@ -49,8 +49,8 @@ class TermView(object):
     def magenta(self, *args):
         self.colored("magenta", *args)
 
-    def blue_(self, *args):
-        self.colored_("blue", *args)
+    def blue(self, *args):
+        self.colored("blue", *args)
 
     def red_star(self):
         print colored("*", "red"),
@@ -62,12 +62,26 @@ class TermView(object):
         s = " ".join(map(unicode, args)).strip()
         if s: print s
 
-    def out_(self, *args):
-        s = " ".join(map(unicode, args)).strip()
-        if s: print s,
-
     def endl(self):
         print
+
+    def out_word(self, word, highlight_learned_only):
+        self.red_star()
+        self.magenta(word.word)
+        for m in word:
+            self.yellow(m.explanation)
+            self.out(m.example)
+            links = [(u"[同] ", m.syno_raw), (u"[近] ", m.homo_raw), (u"[反] ", m.anto_raw)]
+            for item, content in links:
+                if not content: continue
+                self.out(item)
+                for each in content:
+                    if g3000.contains_word_in_sentence(each) and (not highlight_learned_only or each < word):  # (4, 5, 2)
+                        self.blue(each)
+                    else:
+                        self.out(each)
+                    self.out("; ")
+                self.endl()
 
     def validate_input(self, content = "", counter = -1):
         try:
